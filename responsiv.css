@@ -1,0 +1,225 @@
+@media (max-width: 1230px){
+    header {
+        padding: 0 10px;
+      }
+    
+      header nav label {
+        display: block;
+      }
+    
+      header nav ul {
+        width: 100%;
+        height: 100vh;
+        top: 0px;
+        left: -100%;
+        position: fixed;
+        z-index: 10;
+        transition: 0.5s all;
+        background-color: #152040;
+        flex-direction: column;
+        gap: 10px;
+      }
+    
+      header nav input#bar:checked~ul {
+        left: 0;
+      }
+    
+      header nav input#bar:checked~label.close {
+        display: block;
+        animation: show-up 1s linear;
+      }
+      header nav label.close {
+        display: none;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        z-index: 100;
+      }
+
+}
+@media (max-width: 1135px){
+    div.border1 section.school{
+        padding: 160px 0px 0px 100px;
+    }
+    div.border1 section.school h1{
+        font-size: 78px;
+    }
+}
+
+@media (max-width: 1001px){
+    div.button{
+        margin-top: 30px;
+    }
+    div.border2{
+        background-image: none;
+        max-width: 100%;
+        max-height: 1900px;
+        height: 100%;
+    }
+    
+
+    div.border2 section.about{
+        display: none;
+    }
+    div.border2 main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    div.border2 article section div.Intro,
+    div.border2 article section div.Diver,
+    div.border2 article section div.Dive-Master{  
+        background-image: none; 
+    }
+    div.border2 article{
+        display: none;
+    }
+    div.border2 section.about{
+        display: none;
+    }
+    section.data{
+        flex-direction: column;
+    }
+    section.data article form div textarea{
+        max-width: 280px;
+        width: 100%;
+        max-height: 116px;
+        height: 100%;
+    }
+    div.border3 article h2{
+        font-size: 24px;
+    }
+    div.by h2 {
+        font-size: 24px;
+    }
+    div.by div.Certified div img{
+        max-width: 200px;
+        width: 100%;
+        max-height: 200px;
+        height: 100%;
+    }
+    
+    section.data{
+        max-height: 2000px;
+        height: 100%;
+    }
+    section.data article form button {
+        height: 42px;
+    }
+    section.bottom-line{
+        width: 100%;
+        max-height: 134px;
+        height: 100%;  
+    }
+    section.data div.contact{
+        align-items: start;
+        row-gap: 0px;
+        margin: 5px 0px 0px 10px;
+    }
+    section.data article form{
+        gap: 0px;
+        column-gap: 5px;
+        margin: 5px 0px 15px 10px
+    }
+    section.data div.contact h2{
+        font-size: 28px;
+    }
+    div.chat{
+        bottom: 10px;
+        right: 10px; 
+    }
+    div.chat div{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    div.chat div a span{
+        display: none;
+    }
+    div.us{
+        margin-top: 10px;
+    }
+    div.us h1{
+        font-size: 28px;
+    }
+    div.ocean{
+        margin-top: 15px;
+    }
+    div.ocean h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    div.staff h2 {
+        font-size: 24px;
+        color: var(--yavisferi--);
+    }
+    section.instructor h2{
+        color: var(--yavisferi--);
+        font-size: 19px;
+    }
+    div.ocean p,
+    div.staff p,
+    section.instructor{
+        padding-left: 15px;
+    }
+    section.instructor {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 969px){
+    div.border1 section.school{
+        padding: 60px 0px 0px 100px
+    }
+    div.border1 section.school h1{
+        font-size: 58px;
+    }
+}
+@media (max-width: 766px){
+    div.border1 section.school h1{
+        font-size: 38px;
+    }
+}
+@media (max-width: 500px){
+    div.border1 {
+        background-position: 30%;
+    }
+    div.border1 section.school span.texst{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    header h2.brand{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    header h2.brand div svg{
+        width: 60px;
+        height: 35px;
+        text-align: center;
+    }
+    header nav{
+        flex-grow: 0;  
+    }
+}
+@media (max-width: 472px){
+    div.by{
+        row-gap: 30px;
+    }
+    div.by div.Certified div img{
+        margin: 35px;
+    }
+}
+@media (max-width: 385px){
+    div.border1{
+        background-position:45% ;
+    }
+    div.border1 section.school{
+        padding: 60px 0px 0px 20px;
+    }
+    div.border1 section.school h1{
+        font-size: 32px;
+    }
+}
