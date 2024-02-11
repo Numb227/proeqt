@@ -182,7 +182,12 @@
         font-size: 38px;
     }
 }
-@media (max-width: 500px){
+@media (max-width: 650px){
+    div.border3{
+        background-position:30% ;
+    }
+}
+@media (max-width: 460px){
     div.border1 {
         background-position: 30%;
     }
